@@ -71,16 +71,16 @@ public class Main {
         System.out.println("Если в компании работает " + moreEmployees+ " человека, то всего " + newTotalHours+ " часов работы может быть поделено между сотрудниками" );
 
 // Переменные урок 2.
-        //  Задача 1  Объявите переменные типа int, byte, short, long, float, double.
+//  Задача 1  Объявите переменные типа int, byte, short, long, float, double.
         int a = 5;
         byte b = 127;
-        short С = 300;
+        short c = 300;
         long d = 500000L;
         float e = 15.5f;
         double f = 10.65;
         System.out.println("Значение переменной a с типом int равно " + a);
-        System.out.println("Значение переменной b типом byet равно " + b);
-        System.out.println("Значение переменной C типом short равно " + С);
+        System.out.println("Значение переменной b типом byte равно " + b);
+        System.out.println("Значение переменной C типом short равно " + c);
         System.out.println("Значение переменной d типом long равно " + d);
         System.out.println("Значение переменной e типом float равно " + e);
         System.out.println("Значение переменной f типом double равно " + f);
@@ -100,11 +100,11 @@ public class Main {
         System.out.println(+num6+" подходит тип short");
         System.out.println(+num7+" подходит тип byte");
 // задача 3
-        byte ludmilaPavlovna = 23;
-        byte AnnaSergeevna = 27;
-        byte EkaterinaAndreevna = 30;
+        byte ludmilaPavl = 23;
+        byte AnnaSerg = 27;
+        byte EkatAndreev = 30;
         short totalPaper = 480;
-        int totalStudents = ludmilaPavlovna+AnnaSergeevna+EkaterinaAndreevna;
+        int totalStudents = ludmilaPavl+AnnaSerg+EkatAndreev;
         int papersForStudent = totalPaper/totalStudents;
         System.out.println("На каждого ученика рассчитано " +papersForStudent+ " листов бумаги");
 // Задача 4
@@ -148,7 +148,7 @@ public class Main {
         float weightInGrams = weightBanana + weightMilkMl + weightIceCreamPlombir + weightRawEgg;
         float weightInKg = weightInGrams/1000;
         System.out.println("Вес спортзавтрака из всех ингридиентов составляет "+weightInGrams+" грамм, или "+weightInKg+ " кг.");
-        // Задача 7
+// Задача 7
         short totalWeightLoss = 7000;
         short lossPerDay1 = 250;
         short lossPerDay2 = 500;
